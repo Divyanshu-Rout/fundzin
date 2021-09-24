@@ -1,0 +1,128 @@
+.logIn{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.SignUp{
+        position: absolute;
+        top : 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+.text{
+    text-align: center;
+    padding: 0 0 40px 0;
+    font-weight: 600;
+}
+
+.logo{
+    align-items: center;
+}
+
+.field{
+    position: relative;
+    margin:30px 0;
+}
+
+.field input{
+    width:100%;
+    padding: 10px;
+    padding-left: 16px;
+    height: 40px;
+    font-size:16px;
+    border-width: 2px;
+    border-color: #9CA3AF;
+    border-radius: 20px;
+    background:none;
+    outline:none;
+}
+
+.field label{
+    position: absolute;
+    padding:15px;
+    top:50%;
+    left:5px;
+    color:#adadad;
+    transform: translateY(-50%);
+    font-size:16px;
+    pointer-events:none;
+}
+.LogInButton{
+    align-items: center;
+}
+.SignUpButton{
+    align-items: center;
+}
+
+
+.signForgetButtons{
+    display:flex;
+    justify-content: space-between;
+    color: #2563EB;
+    font-weight: 500;
+    font-size: small;
+}
+
+.signForgetButtons :hover {
+    color: #312E81;
+    cursor:pointer;
+}
+.forgotButton:hover {
+    color: #312E81;
+}
+.LogInWithButton {
+    margin-top: 30px;
+    color:#2563EB;
+    font-weight: 700;
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+}
+
+.LogInWithButton:before{
+    content: "";
+    display:block;
+    width: 30px;
+    height: 2px;
+    background:#9CA3AF ;
+    left: 0;
+    top: 50%;
+    position:absolute;
+}
+.LogInWithButton:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #9CA3AF;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  .logoButton{
+      padding-top: 30px;
+      display: flex;
+      justify-content:center;
+  }
+  .logoButton:hover{
+      cursor: pointer;
+      
+  }
+  .google {
+      padding:5px;
+      border-width:2px;
+      border-radius: 150px;
+      border-color:#2563EB;
+      margin-left: 10px;
+  }
+  .google:hover{
+    transform: scale(1.2);
+  }
+  
+  .facebook:hover{
+    transform: scale(1.2);
+  }
+  
