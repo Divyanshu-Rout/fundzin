@@ -1,5 +1,5 @@
-import LogIn from './screens/LogIn';
-import SignUp from './screens/SignUp'
+import LogIn from './pages/LogIn';
+import SignUp from './pages/SignUp'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
